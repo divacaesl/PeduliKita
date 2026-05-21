@@ -34,7 +34,7 @@
                     </div>
                     <h3 class="font-serif text-xl font-bold mb-3">Pangan Sehat</h3>
                     <p class="text-gray-500 text-sm mb-4">Menyalurkan bantuan makanan bergizi untuk keluarga prasejahtera agar terhindar dari gizi buruk.</p>
-                    <a href="{{ route('campaigns.index') }}" class="text-xs uppercase tracking-wider text-gray-400 hover:text-dark underline decoration-1 underline-offset-4">Mulai Berdonasi</a>
+                    <a href="{{ route('campaigns.index', ['category' => 'pangan-sehat']) }}" class="text-xs uppercase tracking-wider text-gray-400 hover:text-dark underline decoration-1 underline-offset-4">Mulai Berdonasi</a>
                 </div>
                 <!-- Feature 2 -->
                 <div data-aos="fade-up" data-aos-delay="200">
@@ -43,7 +43,7 @@
                     </div>
                     <h3 class="font-serif text-xl font-bold mb-3">Pendidikan</h3>
                     <p class="text-gray-500 text-sm mb-4">Membangun sekolah dan menyediakan buku bagi anak-anak di pelosok negeri agar meraih cita-citanya.</p>
-                    <a href="{{ route('campaigns.index') }}" class="text-xs uppercase tracking-wider text-gray-400 hover:text-dark underline decoration-1 underline-offset-4">Mulai Berdonasi</a>
+                    <a href="{{ route('campaigns.index', ['category' => 'pendidikan']) }}" class="text-xs uppercase tracking-wider text-gray-400 hover:text-dark underline decoration-1 underline-offset-4">Mulai Berdonasi</a>
                 </div>
                 <!-- Feature 3 -->
                 <div data-aos="fade-up" data-aos-delay="300">
@@ -52,7 +52,7 @@
                     </div>
                     <h3 class="font-serif text-xl font-bold mb-3">Kesehatan</h3>
                     <p class="text-gray-500 text-sm mb-4">Bantuan pengobatan dan fasilitas medis untuk saudara kita yang sedang berjuang melawan penyakit kronis.</p>
-                    <a href="{{ route('campaigns.index') }}" class="text-xs uppercase tracking-wider text-gray-400 hover:text-dark underline decoration-1 underline-offset-4">Mulai Berdonasi</a>
+                    <a href="{{ route('campaigns.index', ['category' => 'kesehatan']) }}" class="text-xs uppercase tracking-wider text-gray-400 hover:text-dark underline decoration-1 underline-offset-4">Mulai Berdonasi</a>
                 </div>
             </div>
             
@@ -64,7 +64,7 @@
                     </div>
                     <h3 class="font-serif text-xl font-bold mb-3">Air Bersih</h3>
                     <p class="text-gray-500 text-sm mb-4">Menyediakan akses sumur air bersih dan sanitasi layak bagi desa-desa yang mengalami kekeringan ekstrem.</p>
-                    <a href="{{ route('campaigns.index') }}" class="text-xs uppercase tracking-wider text-gray-400 hover:text-dark underline decoration-1 underline-offset-4">Mulai Berdonasi</a>
+                    <a href="{{ route('campaigns.index', ['category' => 'air-bersih']) }}" class="text-xs uppercase tracking-wider text-gray-400 hover:text-dark underline decoration-1 underline-offset-4">Mulai Berdonasi</a>
                 </div>
                 <!-- Feature 5 -->
                 <div data-aos="fade-up" data-aos-delay="500">
@@ -73,7 +73,7 @@
                     </div>
                     <h3 class="font-serif text-xl font-bold mb-3">Kasih Sayang</h3>
                     <p class="text-gray-500 text-sm mb-4">Dukungan psikologis dan bantuan sosial untuk panti asuhan, kaum difabel, serta lansia terlantar.</p>
-                    <a href="{{ route('volunteer') }}" class="text-xs uppercase tracking-wider text-gray-400 hover:text-dark underline decoration-1 underline-offset-4">Pelajari & Ikut Serta</a>
+                    <a href="{{ route('campaigns.index', ['category' => 'kasih-sayang']) }}" class="text-xs uppercase tracking-wider text-gray-400 hover:text-dark underline decoration-1 underline-offset-4">Pelajari & Ikut Serta</a>
                 </div>
                 <!-- Feature 6 -->
                 <div data-aos="fade-up" data-aos-delay="600">
@@ -82,7 +82,7 @@
                     </div>
                     <h3 class="font-serif text-xl font-bold mb-3">Bantuan Bencana</h3>
                     <p class="text-gray-500 text-sm mb-4">Respons cepat tanggap darurat bencana alam, distribusi tenda, obat-obatan, dan pemulihan pasca-bencana.</p>
-                    <a href="{{ route('campaigns.index') }}" class="text-xs uppercase tracking-wider text-gray-400 hover:text-dark underline decoration-1 underline-offset-4">Mulai Berdonasi</a>
+                    <a href="{{ route('campaigns.index', ['category' => 'bantuan-bencana']) }}" class="text-xs uppercase tracking-wider text-gray-400 hover:text-dark underline decoration-1 underline-offset-4">Mulai Berdonasi</a>
                 </div>
             </div>
         </div>

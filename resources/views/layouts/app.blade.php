@@ -38,9 +38,8 @@
             <footer class="bg-dark py-12 text-center text-gray-400 text-sm mt-auto">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="mb-4">
-                        <span class="block text-primary font-bold text-xl tracking-widest leading-none">THE</span>
-                        <span class="block text-white font-bold text-xl tracking-widest leading-none">HOPE</span>
-                        <span class="block text-primary text-xs tracking-widest">PROJECT</span>
+                        <span class="block text-primary font-bold text-xl tracking-widest leading-none">PEDULI</span>
+                        <span class="block text-white font-bold text-xl tracking-widest leading-none">KITA</span>
                     </div>
                     <p>&copy; {{ date('Y') }} PeduliKita. All rights reserved.</p>
                 </div>

@@ -1,6 +1,6 @@
 <x-public-layout title="Blog Kami">
     <!-- Hero Section -->
-    <div class="relative bg-dark text-white min-h-[60vh] flex flex-col items-center justify-center text-center pt-40 pb-24">
+    <div class="relative bg-dark text-white min-h-[50vh] flex flex-col items-center justify-center text-center pt-56 pb-24">
         <div class="absolute inset-0 z-0">
             <img src="https://images.unsplash.com/photo-1455309036818-60085d20e89d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Blog Hero" class="w-full h-full object-cover opacity-30">
             <div class="absolute inset-0 bg-gradient-to-b from-dark/90 via-dark/60 to-gray-50"></div>

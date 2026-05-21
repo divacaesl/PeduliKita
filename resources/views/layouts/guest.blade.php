@@ -22,9 +22,8 @@
                     <div class="mb-10 text-center lg:text-left">
                         <a href="/" wire:navigate class="inline-block mb-6">
                             <div class="text-center lg:text-left">
-                                <span class="block text-primary font-bold text-2xl tracking-widest leading-none">THE</span>
-                                <span class="block text-dark font-bold text-2xl tracking-widest leading-none">HOPE</span>
-                                <span class="block text-primary text-sm tracking-widest">PROJECT</span>
+                                <span class="block text-primary font-bold text-2xl tracking-widest leading-none">PEDULI</span>
+                                <span class="block text-dark font-bold text-2xl tracking-widest leading-none">KITA</span>
                             </div>
                         </a>
                         <h2 class="text-3xl font-serif font-bold text-gray-900">Welcome Back</h2>

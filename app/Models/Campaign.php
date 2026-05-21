@@ -8,7 +8,8 @@ class Campaign extends Model
 {
     protected $fillable = [
         'user_id', 'category_id', 'title', 'slug', 'description', 
-        'target_amount', 'current_amount', 'image', 'deadline', 'status'
+        'target_amount', 'current_amount', 'image', 'deadline', 'status',
+        'is_verified', 'verification_document', 'location', 'is_urgent'
     ];
 
     public function user()
@@ -29,5 +30,10 @@ class Campaign extends Model
     public function ledgers()
     {
         return $this->hasMany(TransparencyLedger::class);
+    }
+
+    public function updates()
+    {
+        return $this->hasMany(CampaignUpdate::class);
     }
 }

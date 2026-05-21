@@ -8,7 +8,8 @@ class Donation extends Model
 {
     protected $fillable = [
         'user_id', 'campaign_id', 'amount', 'payment_method', 
-        'status', 'is_anonymous', 'message'
+        'status', 'is_anonymous', 'message', 'guest_name', 'guest_email', 'transaction_id',
+        'is_recurring', 'billing_cycle'
     ];
 
     public function user()

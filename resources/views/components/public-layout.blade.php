@@ -12,6 +12,7 @@
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @livewireStyles
 </head>
 <body class="font-sans antialiased text-gray-900 bg-gray-50 flex flex-col min-h-screen">
 
@@ -29,9 +30,8 @@
             <a href="{{ route('about') }}" class="hover:text-primary transition {{ request()->routeIs('about') ? 'text-primary' : 'text-gray-300' }}">Tentang</a>
             
             <a href="{{ route('home') }}" class="text-center mx-4">
-                <span class="block text-primary font-bold text-xl tracking-widest leading-none">THE</span>
-                <span class="block text-white font-bold text-xl tracking-widest leading-none">HOPE</span>
-                <span class="block text-primary text-xs tracking-widest">PROJECT</span>
+                <span class="block text-primary font-bold text-xl tracking-widest leading-none">PEDULI</span>
+                <span class="block text-white font-bold text-xl tracking-widest leading-none">KITA</span>
             </a>
 
             <a href="{{ route('volunteer') }}" class="hover:text-primary transition {{ request()->routeIs('volunteer') ? 'text-primary' : 'text-gray-300' }}">Relawan</a>
@@ -55,9 +55,8 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-12">
             <div>
                 <div class="mb-6">
-                    <span class="block text-primary font-bold text-xl tracking-widest leading-none">THE</span>
-                    <span class="block text-white font-bold text-xl tracking-widest leading-none">HOPE</span>
-                    <span class="block text-primary text-xs tracking-widest">PROJECT</span>
+                    <span class="block text-primary font-bold text-xl tracking-widest leading-none">PEDULI</span>
+                    <span class="block text-white font-bold text-xl tracking-widest leading-none">KITA</span>
                 </div>
                 <p class="text-gray-400 text-sm">Memberdayakan masyarakat dan mengubah kehidupan di seluruh pelosok negeri melalui donasi yang transparan dan berdampak nyata.</p>
             </div>
@@ -101,5 +100,6 @@
             });
         });
     </script>
+    @livewireScripts
 </body>
 </html>

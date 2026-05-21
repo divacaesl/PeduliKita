@@ -1,6 +1,6 @@
 <div>
     <!-- Hero Section -->
-    <div class="relative bg-dark text-white min-h-[50vh] flex flex-col items-center justify-center text-center pt-40 pb-24">
+    <div class="relative bg-dark text-white min-h-[50vh] flex flex-col items-center justify-center text-center pt-56 pb-24">
         <div class="absolute inset-0 z-0">
             <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Campaigns Hero" class="w-full h-full object-cover opacity-30">
             <div class="absolute inset-0 bg-gradient-to-b from-dark/90 via-dark/60 to-gray-50"></div>
@@ -22,7 +22,7 @@
                 <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 flex flex-col h-full" data-aos="fade-up" data-aos-delay="{{ $index * 100 }}">
                     <div class="h-56 overflow-hidden relative">
                         @if($campaign->image)
-                            <img src="{{ Storage::url($campaign->image) }}" alt="{{ $campaign->title }}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                            <img src="{{ filter_var($campaign->image, FILTER_VALIDATE_URL) ? $campaign->image : Storage::url($campaign->image) }}" alt="{{ $campaign->title }}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                         @else
                             <div class="w-full h-full bg-gray-200 flex items-center justify-center">
                                 <span class="text-gray-400">Tidak ada gambar</span>
